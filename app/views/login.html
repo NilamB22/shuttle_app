@@ -1,0 +1,11 @@
+<div class="wrapper">
+  <form class="form-signin">
+    <h2 class="form-signin-heading">Please login</h2>
+
+
+    <input type="email" class="form-control" name="username" placeholder="Email Address" required="" autofocus=""  ng-model="email_field"/>
+    <input type="password" class="form-control" name="password" placeholder="Password" required="" ng-model="password_field"/>
+    <button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="chkLogin()">Login</button>
+    <div><span>{{loginMsg}}</span></div>
+  </form>
+</div>
